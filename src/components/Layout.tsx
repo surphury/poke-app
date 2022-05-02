@@ -1,9 +1,11 @@
+import { Header, Footer } from './';
+
 export function Layout() {
 	return (
 		<>
-			<header></header>
+			<Header />
 			<main></main>
-			<footer></footer>
+			<Footer />
 		</>
 	);
 }
